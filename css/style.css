@@ -44,12 +44,14 @@ header > section > article {
     gap: 25px;
 }
 
-header > section > article > h1 {
+header > section > article > h1,
+main > article > h1 {
     font-size: 48px;
     font-weight: 700;
 } 
 
-header > section > article > p {
+header > section > article > p,
+main > article > p {
     font-size: 21px;
     font-weight: 300;
     color: #7D7987;
@@ -76,3 +78,49 @@ header > section > article > button {
 .text-box {
     padding-top: 100px;
 }
+
+main > article {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 200px 300px 80px 300px;
+    text-align: center;
+}
+
+main > section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 240px;
+    gap: 34px;
+
+    flex-wrap: wrap;
+}
+
+main > section > div {
+    background-color: #fff;
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+
+    flex: 1 1 calc(25% - 20px); /* Ajusta o tamanho dos cards */
+
+}
+
+main > section > div > p {
+    font-size: 16px;
+    color:#7D7987;
+    font-weight: 300;   
+}
+
+main > section > div > h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+
