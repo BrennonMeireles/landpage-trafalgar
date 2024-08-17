@@ -61,7 +61,7 @@ header > section > article > button {
     padding: 20px 40px;
     border-radius: 55px;
     width: 200px;
-    border: NONE;
+    border: none;
     background-color: #458FF6;
 
     margin-top: 20px;
@@ -74,7 +74,7 @@ header > section > article > button {
 header > section > article > button:hover {
     background-color: #fff;
     color: #458FF6;
-    border: solid px #458FF6;
+    border: solid 1px #458FF6;
 }
 
 .img-header {
