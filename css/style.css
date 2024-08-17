@@ -105,7 +105,6 @@ main > section > div {
     box-shadow: 10px 40px 50px 0px #E5E9F666;
 
     flex: 1 1 calc(25% - 20px); /* Ajusta o tamanho dos cards */
-
 }
 
 main > section > div > p {
@@ -121,6 +120,40 @@ main > section > div > h4 {
     margin-top: 20px;
 }
 
+main > .leading-plans {
+    display: flex;
+    gap: 120px;
+    padding: 100px 190px;
+}
 
+main > .leading-plans > article > h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
 
+main > .leading-plans > article > p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #7D7987;
+} 
 
+main > .leading-plans > article > button {
+    padding: 20px 40px;
+    border-radius: 55px;
+    width: 200px;
+    background-color: transparent;
+
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #458ff6;
+    border-color: #458FF6;
+}
+
+main > .leading-plans > article > button:hover {
+    background-color: #458ff6;
+    color: #fff;
+    border-color: #fff;
+}
