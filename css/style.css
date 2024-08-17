@@ -61,13 +61,20 @@ header > section > article > button {
     padding: 20px 40px;
     border-radius: 55px;
     width: 200px;
-    border: NONE;
+    border: none;
     background-color: #458FF6;
 
     margin-top: 20px;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+header > section > article > button:hover {
+    background-color: #fff;
+    color: #458FF6;
+    border: solid 1px #458FF6;
 }
 
 .img-header {
@@ -87,7 +94,7 @@ main > article {
     text-align: center;
 }
 
-main > section {
+main > .container-cardinfo {
     display: flex;
     justify-content: space-between;
     padding: 50px 240px;
@@ -96,7 +103,7 @@ main > section {
     flex-wrap: wrap;
 }
 
-main > section > div {
+main > .container-cardinfo > div {
     background-color: #fff;
     width: 350px;
     height: 354px;
@@ -107,13 +114,13 @@ main > section > div {
     flex: 1 1 calc(25% - 20px); /* Ajusta o tamanho dos cards */
 }
 
-main > section > div > p {
+main > .container-cardinfo > div > p {
     font-size: 16px;
     color:#7D7987;
     font-weight: 300;   
 }
 
-main > section > div > h4 {
+main > .container-cardinfo > div > h4 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -139,7 +146,7 @@ main > .leading-plans > article > p {
     color: #7D7987;
 } 
 
-main > .leading-plans > article > button {
+main > .leading-plans > article > button, .btn-view-all {
     padding: 20px 40px;
     border-radius: 55px;
     width: 200px;
@@ -150,10 +157,87 @@ main > .leading-plans > article > button {
     font-weight: 700;
     color: #458ff6;
     border-color: #458FF6;
+    transition: 0.3s ease-in-out;
 }
 
-main > .leading-plans > article > button:hover {
+main > .leading-plans > article > button:hover, .btn-view-all:hover {
     background-color: #458ff6;
     color: #fff;
     border-color: #fff;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 200px;
+}
+
+.card-readmore{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 30px;
+
+    background-color: #fff;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+}
+
+.card-readmore > h4 {
+    font-size: 21px;
+    font-weight: 700px;
+}
+
+.card-readmore > p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #7D7987;
+}
+
+.card-readmore > div > a {
+    color: #458ff6;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #fff;
+
+    padding: 110px 190px;
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+
+footer > ul > li {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+footer > ul > p {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 50px;
+
+}
+
+footer > ul > img {
+    width: 150px;
+    /* padding-bottom: 50px; */
 }
