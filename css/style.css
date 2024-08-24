@@ -241,3 +241,194 @@ footer > ul > img {
     width: 150px;
     /* padding-bottom: 50px; */
 }
+
+@media screen and (max-width: 600px) {
+    nav {
+        padding: 20px;
+    }
+    
+    nav > ul {
+        gap: 0px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    nav > div > h4 {
+        font-size: 14px;
+    }
+    
+    nav > ul > li {
+        font-size: 13px;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    header > section {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 20px;
+        gap: 10px;
+    }
+    
+    header > section > article {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    header > section > article > h1,
+    main > article > h1 {
+        font-size: 28px;
+    } 
+    
+    header > section > article > p,
+    main > article > p {
+        font-size: 14px;
+    } 
+    
+    header > section > article > button {
+        padding: 10px 10px;
+    
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    
+    .img-header {
+        padding-top: 10px;
+        width: 90vw;
+        height: auto;
+    }
+    
+    .text-box {
+        padding-top: 30px;
+    }
+
+    main > article {
+        gap: 10px;
+        padding: 20px;
+    }
+    
+    main > .container-cardinfo {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        gap: 20px;
+    
+        flex-wrap: wrap;
+    }
+    
+    main > .container-cardinfo > div {
+        width: 150px;
+        height: 250px;
+        padding: 20px;    
+   }
+
+    main > .container-cardinfo > div > img {
+        width: 30px;
+    }
+    
+    main > .container-cardinfo > div > p {
+        font-size: 12px;
+    }
+    
+    main > .container-cardinfo > div > h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    main > .leading-plans {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    main > .leading-plans > article > h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .leading-plans > div > img {
+        padding-top: 10px;
+        width: 90vw;
+        height: auto;
+    }
+
+    .img-leading > img {
+        width: 30px;
+    }
+    
+    main > .leading-plans > article > p {
+        font-size: 14px;
+    } 
+    
+    main > .leading-plans > article > button, .btn-view-all {
+        padding: 10px;
+        width: 200px;
+        font-size: 14px;
+    }
+    
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    .card-readmore{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 300px;
+        padding: 30px;
+
+    }
+    
+    .card-readmore > h4 {
+        font-size: 18px;
+    }
+    
+    .card-readmore > p {
+        font-size: 14px;
+    }
+    
+    .card-readmore > div > a {
+        padding-right: 18px;
+    }
+
+    footer {
+        margin-top: 50px;
+        gap: 50px;
+        padding: 20px;
+    }
+    
+    footer > ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 10px;
+    }
+    
+    footer > ul > li {
+        font-size: 14px;
+    }
+    
+    footer > ul > p {
+        font-size: 14px;
+        padding-bottom: 0px;
+    
+    }
+    
+    footer > ul > img {
+        width: 80px;
+        /* padding-bottom: 50px; */
+    }
+    
+}
