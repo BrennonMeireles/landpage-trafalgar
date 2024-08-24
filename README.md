@@ -6,7 +6,7 @@
 
 # Trafalgar
 
-Trafalgar é um aplicativo e site moderno para uma rede de consultas em hospitais. Desenvolvido para proporcionar uma experiência simples e intuitiva, o Trafalgar oferece uma interface limpa e minimalista, ideal para gestão e agendamento de consultas médicas.
+Trafalgar é um site moderno para uma rede de consultas em hospitais. Desenvolvido para proporcionar uma experiência simples e intuitiva, o Trafalgar oferece uma interface limpa e minimalista, ideal para gestão e agendamento de consultas médicas.
 
 ## Funcionalidades
 - **Agendamento de Consultas**: Permite que os pacientes agendem consultas médicas de forma rápida e eficiente.
