@@ -15,5 +15,4 @@ Trafalgar é um site moderno para uma rede de consultas em hospitais. Desenvolvi
 
 # Uso
 - Abra o aplicativo ou site no seu navegador.
-- Crie uma conta ou faça login com suas credenciais.
-- Navegue pela interface para agendar consultas, gerenciar pacientes e explorar outras funcionalidades.
+- Navegue pela interface para outras funcionalidades.
