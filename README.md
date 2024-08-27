@@ -9,7 +9,7 @@
 Trafalgar é um site moderno para uma rede de consultas em hospitais. Desenvolvido para proporcionar uma experiência simples e intuitiva, o Trafalgar oferece uma interface limpa e minimalista, ideal para gestão e agendamento de consultas médicas.
 
 ## Tecnologias Utilizadas
-
+ 
 - **Frontend**: HTML, CSS
 - **Hospedagem**: [Link do Site](https://landpage-trafalgar-three.vercel.app/)
 
